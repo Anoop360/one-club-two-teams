@@ -1,3 +1,46 @@
+
 <?php $pageTitle = $pageTitle ?? 'Home'; ?>
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0b0d"><title><?= e($pageTitle) ?> | <?= e(APP_NAME) ?></title><link rel="stylesheet" href="assets/style.css"></head><body>
-<header class="site-header"><a class="brand" href="index.php"><span class="brand-icon">OC</span><span>MALABAR <small>IMPERIAL EAGLES</small></span></a><button class="menu-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button><nav class="nav"><a href="team.php?sport=cricket">Cricket</a><a href="team.php?sport=football">Football</a><a href="officials.php">Officials</a><a href="matches.php">Matches</a><a href="announcements.php">News</a><a href="gallery.php">Gallery</a><?php if (is_admin()): ?><a class="nav-admin" href="dashboard.php">Dashboard</a><?php else: ?><a class="nav-admin" href="admin.php">Admin Login</a><?php endif; ?></nav></header><main class="container"><?php render_flash(); ?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#0b0b0d">
+    <title><?= e($pageTitle) ?> | <?= e(APP_NAME) ?></title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="brand" href="index.php">
+        <span class="brand-icon">MIE</span>
+        <span>
+            MALABAR
+            <small>IMPERIAL EAGLES</small>
+        </span>
+    </a>
+
+    <button class="menu-toggle"
+            aria-label="Toggle menu"
+            onclick="document.querySelector('.nav').classList.toggle('open')">
+        ☰
+    </button>
+
+    <nav class="nav">
+        <a href="team.php?sport=cricket">Cricket</a>
+        <a href="team.php?sport=football">Football</a>
+        <a href="officials.php">Officials</a>
+        <a href="matches.php">Matches</a>
+        <a href="announcements.php">News</a>
+        <a href="gallery.php">Gallery</a>
+
+        <?php if (is_admin()): ?>
+            <a class="nav-admin" href="dashboard.php">Dashboard</a>
+        <?php else: ?>
+            <a class="nav-admin" href="admin.php">Admin Login</a>
+        <?php endif; ?>
+    </nav>
+</header>
+
+<main class="container">
+    <?php render_flash(); ?>
