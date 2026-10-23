@@ -6,7 +6,7 @@ const DB_HOST = 'localhost';
 const DB_NAME = 'one_club_two_teams';
 const DB_USER = 'root';
 const DB_PASS = '';
-const APP_NAME = 'ONE CLUB, TWO TEAMS';
+const APP_NAME = 'MALABAR IMPERIAL EAGLES';
 const UPLOAD_DIR = __DIR__ . '/uploads';
 const MAX_UPLOAD_BYTES = 5_000_000;
 
