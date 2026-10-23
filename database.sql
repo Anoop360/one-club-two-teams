@@ -1,5 +1,4 @@
-CREATE DATABASE IF NOT EXISTS one_club_two_teams CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE one_club_two_teams;
+
 
 CREATE TABLE IF NOT EXISTS admins (
   id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
