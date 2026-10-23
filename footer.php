@@ -1,0 +1,1 @@
+</main><footer class="site-footer"><div class="brand"><span class="brand-icon">OC</span><span>ONE CLUB<small>TWO TEAMS</small></span></div><p>Built by passion. United by sport.</p><span>© <?= date('Y') ?> One Club, Two Teams</span></footer></body></html>
