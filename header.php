@@ -13,11 +13,9 @@
 
 <header class="site-header">
     <a class="brand" href="index.php">
-        <span class="brand-icon">MIE</span>
-        <span>
-            MALABAR
-            <small>IMPERIAL EAGLES</small>
-        </span>
+        <img src="assets/images/malabar-eagles-logo.png"
+             alt="Malabar Eagles Sports Club"
+             style="width:64px;height:64px;object-fit:contain;display:block;">
     </a>
 
     <button class="menu-toggle"
