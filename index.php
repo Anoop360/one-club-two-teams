@@ -23,9 +23,9 @@ require __DIR__ . '/header.php';
 
 <section class="hero">
   <div class="hero-copy">
-    <span class="eyebrow">MALABAR IMPERIAL EAGLES</span>
+    <span class="eyebrow">MALABAR EAGLES SPORTS CLUB</span>
 
-    <h1>One Club.<br><span>One Legacy.</span></h1>
+    <h1>One Crest.<br><span>One Pride.</span></h1>
 
     <p>
       Two teams. One family. Follow our cricket and football squads,
@@ -39,8 +39,9 @@ require __DIR__ . '/header.php';
   </div>
 
   <div class="hero-mark">
-    <div class="mark-ball">MIE</div>
-    <span>MALABAR IMPERIAL EAGLES</span>
+    <img src="assets/images/malabar-eagles-logo.png"
+         alt="Malabar Eagles Sports Club official logo"
+         style="display:block;width:min(100%,360px);height:auto;object-fit:contain;margin:0 auto;">
     <small>RISE ABOVE · RULE THE GAME</small>
   </div>
 </section>
